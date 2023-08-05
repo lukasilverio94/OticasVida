@@ -1,0 +1,11 @@
+#products {
+  width: 100%;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.header_products_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
