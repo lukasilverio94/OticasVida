@@ -5,11 +5,13 @@ body {
 
 * {
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-h1, h2, h3 {
-  text-transform: uppercase !important;
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
   font-size: 36px;
 }
 .limit_container {
