@@ -17,7 +17,7 @@
 .header_products_container h2 {
   margin: 0;
 }
-
+/* CARD CONTAINER ============================================ */
 .cards {
   margin: 50px 0;
   display: flex;
@@ -27,8 +27,9 @@
 }
 
 .card {
-  width: 40%;
-  background-color: #f5f5f5;
+  width: calc(50% - 15px);
+  background-color: #f6f6f6;
+  padding: 20px 10px;
 }
 
 .card h3 {
@@ -38,6 +39,11 @@
 }
 
 .card p {
-  font-size: .9rem;
+  font-size: 1rem;
   font-weight: 600;
+}
+
+/* LIST PRODUCTS FEATURES ============================================ */
+.products_features ul {
+  list-style-position: inside;
 }
