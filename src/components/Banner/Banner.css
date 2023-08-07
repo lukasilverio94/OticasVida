@@ -20,8 +20,7 @@
   text-align: left;
 }
 
-.banner_text_container h1,
-p {
+.banner_text_container h1 {
   max-width: 500px;
   font-family: "Anybody", cursive;
 }
@@ -29,7 +28,7 @@ p {
 .banner_text_container h1 {
   text-transform: uppercase;
   color: #fff;
-  font-size: 60px;
+  font-size: 55px;
   margin: 0;
   letter-spacing: 5px;
   line-height: 70px;
