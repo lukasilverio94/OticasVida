@@ -23,9 +23,18 @@ nav ul li a {
   font-weight: 500;
   text-decoration: none;
   color: #000;
-  padding: 5px;
+  padding: 10px 15px;
   margin: 0 5px;
+  border-radius: 15px;
   text-transform: uppercase;
+  transition: background-color 0.3s ease-in-out;
+
+}
+
+nav ul li a:hover{
+  background-color: #000;
+  color: #fff;
+  
 }
 
 /* SCREEN MAX 550px ============================================ */
@@ -51,6 +60,6 @@ nav ul li a {
 @media (max-width: 420px) {
   .navbar ul li {
     padding: 5px;
-    margin: 10px 0 5px 0;
+    margin: 10px 0 5px 0; 
   }
 }
