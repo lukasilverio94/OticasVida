@@ -63,7 +63,8 @@
 /* SCREEN MAX 420px ============================================ */
 @media (max-width: 420px) {
   .banner {
-    background-position: 70% center;
+    background-position: 85% center;
     background-size: cover !important ;
   }
 }
+

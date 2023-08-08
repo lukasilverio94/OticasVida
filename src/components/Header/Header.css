@@ -28,7 +28,6 @@ nav ul li a {
   border-radius: 15px;
   text-transform: uppercase;
   transition: background-color 0.3s ease-in-out;
-
 }
 
 nav ul li a:hover{
@@ -44,11 +43,15 @@ nav ul li a:hover{
     align-items: center;
   }
 
+  .navbar ul {
+    border-top: 1px solid #aaadaf;
+  }
+
   .navbar ul li {
     width: 100%;
     padding: 10px 0 0 0;
-    margin-top: 10px;
-    border-top: 1px solid #aaadaf;
+    margin: 10px 15px 5px 15px;
+    
   }
 
   .banner_text_container {

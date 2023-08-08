@@ -90,6 +90,10 @@
     width: 100%;
   }
 
+  .header_products_container {
+    margin-top: 4rem;
+  }
+
   .products_features ul {
     display: flex;
     flex-direction: column;
