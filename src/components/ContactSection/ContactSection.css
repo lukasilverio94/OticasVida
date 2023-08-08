@@ -1,0 +1,39 @@
+#contacts {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 100px 20px;
+  background-color: #05031b;
+}
+
+.contact_container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contact_box {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 15px;
+}
+
+.contact_box img {
+  width: 18px;
+  margin-right: 10px;
+}
+.contact_box div {
+  margin: 5px 0;
+}
+
+.contact_box h3 {
+    font-size: 1.5rem;
+}
+.contact_box p {
+    font-size: 14px;
+    margin: 0;
+    margin-left: 10px;
+
+}
