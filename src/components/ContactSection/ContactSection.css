@@ -37,3 +37,36 @@
     margin-left: 10px;
 
 }
+
+  /* SCREEN MAX 768PX ============================================ */
+  @media (max-width: 768px){
+    #contacts{
+      padding: 60px 20px;
+    }
+  }
+
+    /* SCREEN MAX 550px ============================================ */
+    @media (max-width: 550px){
+      #contacts{
+        padding: 10px;
+      }
+
+      .contact_container {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .contact_box{
+        align-items: center;
+        justify-content: center;
+        
+      }
+
+      .contact_box div {
+        width: 180px;
+      }
+
+      .contact_box div p {
+        width: 200px;
+      }
+    }

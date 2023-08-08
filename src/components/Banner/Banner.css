@@ -4,12 +4,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background: linear-gradiente(47deg, #000113 0%, #04061d 80%, #04061d 100%);
+  background-color: linear-gradient(47deg, #000113 0%, #04061d 80%, #04061d 100%);
   height: 80vh;
   display: flex;
 }
 
 .banner_text_container {
+  
   width: 100%;
   height: 100%;
   padding: 20px;
@@ -21,12 +22,9 @@
 }
 
 .banner_text_container h1 {
+  text-transform: uppercase;
   max-width: 500px;
   font-family: "Anybody", cursive;
-}
-
-.banner_text_container h1 {
-  text-transform: uppercase;
   color: #fff;
   font-size: 55px;
   margin: 0;
@@ -37,4 +35,23 @@
   font-size: 36px;
   color: rgb(196, 196, 196);
   text-align: left;
+}
+
+/* SCREEN MAX 768PX ============================================ */
+@media (max-width: 768px) {
+  .banner_text_container h1 {
+    font-size: 40px;
+    max-width: 350px;
+  }
+
+  .banner_text_container p {
+    font-size: 20px;
+  }
+}
+
+/* SCREEN MAX 550px ============================================ */
+@media (max-width: 550px) {
+  .banner {
+    background-position: 89% center;
+  }
 }

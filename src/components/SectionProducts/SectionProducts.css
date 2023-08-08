@@ -59,3 +59,45 @@
 .products_features ul {
   list-style-position: inside;
 }
+
+/* SCREEN MAX 768PX ============================================ */
+
+@media (max-width: 768px){
+  #products{
+    padding: 60px 20px;    
+  }
+
+  .card h3 {
+    font-size: 22px;
+  }
+
+  .card img {
+    max-height: 100px;
+  }
+
+  .card p {
+    font-size: 16px;
+  }
+}
+
+/* SCREEN MAX 550px ============================================ */
+@media (max-width: 550px){
+  #products {
+    padding: 0 10px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .products_features ul {
+    display: flex;
+    flex-direction: column;
+    list-style-position: initial;
+    text-align: left;
+  }
+
+  .products_features li {
+    line-height: 2.3;
+  }
+}
